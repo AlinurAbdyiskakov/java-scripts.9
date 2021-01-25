@@ -112,7 +112,7 @@ while (number3 <= 100) {
     number3++;
 }
 let number4 = 11;
-while (number4 <= 34) {
+while (number4 <= 33) {
     console.log(number4);
     number4++;
 }

@@ -101,12 +101,18 @@
 //     }
 //     number2++;
 // }
-for (let number2 = 1;number2 <= 10;number2++){
-    if(number2 % 2 != 0)
-continue;
-console.log(number2);}
+// for (let number2 = 1;number2 <= 10;number2++){
+//     if(number2 % 2 != 0)
+// continue;
+// console.log(number2);}
 
 let number3 = 1;
-while (number3 <= 100){
+while (number3 <= 100) {
     console.log(number3);
-    number3++;}
+    number3++;
+}
+let number4 = 11;
+while (number4 <= 34) {
+    console.log(number4);
+    number4++;
+}

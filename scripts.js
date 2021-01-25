@@ -117,7 +117,12 @@ while (number4 <= 33) {
     number4++;
 }
 for (let number5 = 0;number5 <= 100;number5++){
-    if(number5 / 2 != 0)
+    if(number5 % 2 != 0)
     continue;
     console.log(number5);
+}
+for (let number6 =0;number6 <= 100;number6--){
+    if(number6 % 2 != 2)
+    continue;
+    console.log(number6);
 }

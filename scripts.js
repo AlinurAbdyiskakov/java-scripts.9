@@ -116,3 +116,8 @@ while (number4 <= 33) {
     console.log(number4);
     number4++;
 }
+for (let number5 = 0;number5 <= 100;number5++){
+    if(number5 / 2 != 0)
+    continue;
+    console.log(number5);
+}
